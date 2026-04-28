@@ -51,8 +51,10 @@ public class Turma {
     }
 
     public String getInfoTurma() {
-        return "-> Código : " + codigo.toUpperCase() + "\n-> Nome do curso : " + nomeCurso.toUpperCase() + "\n-> Ano de início : " + anoInicio + "\n-> Ano de fim : "
-        + anoFim;
+        return "-> Código : " + codigo.toUpperCase() 
+        + "\n-> Nome do curso : " + nomeCurso.toUpperCase() 
+        + "\n-> Ano de início : " + anoInicio 
+        + "\n-> Ano de fim : " + anoFim;
     }
 
 }
